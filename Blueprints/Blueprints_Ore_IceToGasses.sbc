@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>  <!-- Ice_IceToGas -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Ice_IceToGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint>  <!-- AmberIce_IceToGas -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AmberIce_IceToGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="AmberIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- BlueIce_IceToGas -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BlueIce_IceToGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="BlueIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- GreenIce_IceToGas -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GreenIce_IceToGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="GreenIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- PinkIce_IceToGas -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PinkIce_IceToGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="PinkIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- PurpleIce_IceToGas -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PurpleIce_IceToGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="PurpleIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- EuropaIce_IceToGas -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EuropaIce_IceToGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="EuropaIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- AlienIce_IceToGas -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AlienIce_IceToGas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="AlienIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

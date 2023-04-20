@@ -1,0 +1,701 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+	
+    <Blueprint>  <!-- Bsc_Ice_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Ice_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="217" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="435" TypeId="Ore" SubtypeId="Hydrogen" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Ice_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Ice_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2170" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="4350" TypeId="Ore" SubtypeId="Hydrogen" />
+      </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Ice_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Ice_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100000" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="21700" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="43500" TypeId="Ore" SubtypeId="Hydrogen" />
+      </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_AmberIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_AmberIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Amber Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Amber_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Ore" SubtypeId="AmberIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="159" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="319" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="24" TypeId="Ore" SubtypeId="Chlorine" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_AmberIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_AmberIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Amber Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Amber_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8500" TypeId="Ore" SubtypeId="AmberIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1590" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="3190" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="240" TypeId="Ore" SubtypeId="Chlorine" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_AmberIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_AmberIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Amber Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Amber_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="85000" TypeId="Ore" SubtypeId="AmberIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="15900" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="31900" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="2400" TypeId="Ore" SubtypeId="Chlorine" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_BlueIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_BlueIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Blue Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Blue_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Ore" SubtypeId="BlueIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="151" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="302" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="22" TypeId="Ore" SubtypeId="Fluorine" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_BlueIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_BlueIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Blue Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Blue_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8500" TypeId="Ore" SubtypeId="BlueIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1510" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="3020" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="220" TypeId="Ore" SubtypeId="Fluorine" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_BlueIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_BlueIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Blue Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Blue_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="85000" TypeId="Ore" SubtypeId="BlueIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="15100" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="30200" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="2200" TypeId="Ore" SubtypeId="Fluorine" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_GreenIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_GreenIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Green Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Green_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Ore" SubtypeId="GreenIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="165" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="330" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="25" TypeId="Ore" SubtypeId="Krypton" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_GreenIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_GreenIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Green Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Green_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8500" TypeId="Ore" SubtypeId="GreenIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1650" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="3300" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="250" TypeId="Ore" SubtypeId="Krypton" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_GreenIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_GreenIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Green Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Green_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="85000" TypeId="Ore" SubtypeId="GreenIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="16500" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="33000" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="2500" TypeId="Ore" SubtypeId="Krypton" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_PinkIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_PinkIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Pink Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Pink_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="875" TypeId="Ore" SubtypeId="PinkIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="144" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="288" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="21" TypeId="Ore" SubtypeId="Helium" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_PinkIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_PinkIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Pink Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Pink_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8750" TypeId="Ore" SubtypeId="PinkIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1440" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="2880" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="210" TypeId="Ore" SubtypeId="Helium" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_PinkIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_PinkIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Pink Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Pink_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="87500" TypeId="Ore" SubtypeId="PinkIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="14400" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="28800" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="2100" TypeId="Ore" SubtypeId="Helium" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_PurpleIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_PurpleIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Purple Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Purple_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="900" TypeId="Ore" SubtypeId="PurpleIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="136" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="273" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="20" TypeId="Ore" SubtypeId="Argon" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_PurpleIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_PurpleIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Purple Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Purple_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="9000" TypeId="Ore" SubtypeId="PurpleIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1360" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="2730" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="Argon" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_PurpleIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_PurpleIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Purple Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Purple_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="90000" TypeId="Ore" SubtypeId="PurpleIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="13600" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="27300" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="2000" TypeId="Ore" SubtypeId="Argon" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_EuropaIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_EuropaIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Europa Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Ore" SubtypeId="EuropaIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="115" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="230" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="17" TypeId="Ore" SubtypeId="Xenon" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_EuropaIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_EuropaIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Europa Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8500" TypeId="Ore" SubtypeId="EuropaIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1150" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="2300" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="170" TypeId="Ore" SubtypeId="Xenon" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_EuropaIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_EuropaIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Europa Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="85000" TypeId="Ore" SubtypeId="EuropaIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="11500" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="23000" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="1700" TypeId="Ore" SubtypeId="Xenon" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_AlienIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_AlienIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Alien Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="932" TypeId="Ore" SubtypeId="AlienIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="98" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="196" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="7" TypeId="Ingot" SubtypeId="Radium" />
+        <Item Amount="8" TypeId="Ore" SubtypeId="Neon" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_AlienIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_AlienIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Alien Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="9320" TypeId="Ore" SubtypeId="AlienIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="980" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="1960" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="70" TypeId="Ingot" SubtypeId="Radium" />
+        <Item Amount="80" TypeId="Ore" SubtypeId="Neon" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_AlienIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_AlienIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Alien Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\H2O_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="93200" TypeId="Ore" SubtypeId="AlienIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="9800" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="19600" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="700" TypeId="Ingot" SubtypeId="Radium" />
+        <Item Amount="800" TypeId="Ore" SubtypeId="Neon" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Brine_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Brine_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Brine</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Brine_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="650" TypeId="Ore" SubtypeId="Brine" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="141" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="283" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Sodium" />
+        <Item Amount="34" TypeId="Ore" SubtypeId="Chlorine" />
+        <Item Amount="0.429" TypeId="Ingot" SubtypeId="Beryllium" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Brine_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Brine_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Brine</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Brine_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="6500" TypeId="Ore" SubtypeId="Brine" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1410" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="2830" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Sodium" />
+        <Item Amount="340" TypeId="Ore" SubtypeId="Chlorine" />
+        <Item Amount="4.29" TypeId="Ingot" SubtypeId="Beryllium" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Brine_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Brine_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Brine</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Brine_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="65000" TypeId="Ore" SubtypeId="Brine" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="14100" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="28300" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="400" TypeId="Ingot" SubtypeId="Sodium" />
+        <Item Amount="3400" TypeId="Ore" SubtypeId="Chlorine" />
+        <Item Amount="42.9" TypeId="Ingot" SubtypeId="Beryllium" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_MineralIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_MineralIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Mineral Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Mineral_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="525" TypeId="Ore" SubtypeId="MineralIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="126" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="252" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Chromium" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="0.383" TypeId="Ingot" SubtypeId="Sulfur" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_MineralIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_MineralIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Mineral Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Mineral_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5250" TypeId="Ore" SubtypeId="MineralIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1260" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="2520" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Chromium" />
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="3.83" TypeId="Ingot" SubtypeId="Sulfur" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_MineralIce_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_MineralIce_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Mineral Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Mineral_Ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="52500" TypeId="Ore" SubtypeId="MineralIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="12600" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="25200" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Chromium" />
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="38.3" TypeId="Ingot" SubtypeId="Sulfur" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_AmmoniumHydroxide_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_AmmoniumHydroxide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ammonium Hydroxide</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Ammonium_Hydroxide.dds</Icon>
+      <Prerequisites>
+        <Item Amount="900" TypeId="Ore" SubtypeId="AmmoniumHydroxide" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="864" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="1296" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="432" TypeId="Ore" SubtypeId="Nitrogen" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_AmmoniumHydroxide_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_AmmoniumHydroxide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ammonium Hydroxide</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Ammonium_Hydroxide.dds</Icon>
+      <Prerequisites>
+        <Item Amount="9000" TypeId="Ore" SubtypeId="AmmoniumHydroxide" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="8640" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="12960" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="4320" TypeId="Ore" SubtypeId="Nitrogen" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_AmmoniumHydroxide_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_AmmoniumHydroxide_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Ammonium Hydroxide</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Ammonium_Hydroxide.dds</Icon>
+      <Prerequisites>
+        <Item Amount="90000" TypeId="Ore" SubtypeId="AmmoniumHydroxide" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="86400" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="129600" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="43200" TypeId="Ore" SubtypeId="Nitrogen" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_CHON_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_CHON_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>CHON</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\CHON.dds</Icon>
+      <Prerequisites>
+        <Item Amount="400" TypeId="Ore" SubtypeId="CHON" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="896" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="672" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="11" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="20" TypeId="Ore" SubtypeId="Nitrogen" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_CHON_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_CHON_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>CHON</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\CHON.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4000" TypeId="Ore" SubtypeId="CHON" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="8960" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="6720" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="110" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="Nitrogen" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_CHON_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_CHON_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>CHON</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\CHON.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40000" TypeId="Ore" SubtypeId="CHON" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="89600" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="67200" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="1100" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="2000" TypeId="Ore" SubtypeId="Nitrogen" />
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Iron" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>  <!-- Bsc_MethaneHydrate_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_MethaneHydrate_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Methane Hydrate</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Methane_Hydrate.dds</Icon>
+      <Prerequisites>
+        <Item Amount="825" TypeId="Ore" SubtypeId="MethaneHydrate" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="563" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="103" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="72" TypeId="Ingot" SubtypeId="Carbon" />
+          </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_MethaneHydrate_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_MethaneHydrate_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Methane Hydrate</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Methane_Hydrate.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8250" TypeId="Ore" SubtypeId="MethaneHydrate" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="5630" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="1030" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="720" TypeId="Ingot" SubtypeId="Carbon" />
+          </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_MethaneHydrate_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_MethaneHydrate_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Methane Hydrate</DisplayName>
+      <Icon>Textures\GUI\Icons\Ice\Methane_Hydrate.dds</Icon>
+      <Prerequisites>
+        <Item Amount="82500" TypeId="Ore" SubtypeId="MethaneHydrate" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="56300" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="10300" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="7200" TypeId="Ingot" SubtypeId="Carbon" />
+          </Results>
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>
